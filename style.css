@@ -77,15 +77,18 @@ body {
 
 .nav-main-list {
     display: flex;
-    justify-content: space-between;
     list-style: none;
-}
-
-.nav-portion {
-    display: flex;
     gap: 3rem;
     font-size: 1.1rem;
 }
+
+/* .u-align-self-flex-end {
+    align-self: flex-end;
+} */
+
+/* .nav-portion {
+    display: flex;
+} */
 
 .nav-dropdown {
     display: flex;
@@ -126,6 +129,7 @@ body {
 .heading-primary {
     font-size: 7.2rem;
     letter-spacing: -0.1rem;
+    margin-top: 5rem;
 }
 
 .pane__description {
@@ -159,7 +163,7 @@ body {
 .pane__text-box {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     margin-left: 9rem;
 }
 
@@ -183,5 +187,5 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: auto;
 }
